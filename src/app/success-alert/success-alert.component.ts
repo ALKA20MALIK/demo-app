@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
     selector:'app-success-alert',
-    template:"<p>I am success alert component</p>",
+    template:"<p>I am :) success alert component</p>",
     styles:[`
-    p{
+    p{ 
         padding: 20px;
         background-color: palegreen;
         border: 1px solid green

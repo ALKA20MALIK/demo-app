@@ -2,5 +2,5 @@
 <p *ngIf="!show">Password=alka</p>
 
 <p *ngFor="let item of log ;let i=index" 
-[ngStyle]="{backgroundColor:i>=5?'green':'yellow'}" 
+[ngStyle]="{backgroundColor:i>=5?'green':'red'}" 
 [ngClass]="{color:i>=5}">{{item}}</p>
