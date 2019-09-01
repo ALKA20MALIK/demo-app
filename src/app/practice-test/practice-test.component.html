@@ -1,0 +1,6 @@
+<button type="button" class="btn btn-primary" (click)="toggle($event)">{{show===true?'Display details':'Hide Details'}}</button>
+<p *ngIf="!show">Password=alka</p>
+
+<p *ngFor="let item of log ;let i=index" 
+[ngStyle]="{backgroundColor:i>=5?'green':'yellow'}" 
+[ngClass]="{color:i>=5}">{{item}}</p>
